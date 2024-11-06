@@ -1,11 +1,11 @@
 {
     //problem-2
 
-     const array = [1, 2, 2, 3, 4, 4, 5];
-      const uniqueSet = new Set(array);
-      const filteredElements = array.filter(currentValue => {
-          currentValue
-         }
-      );
-      console.log(filteredElements);
+     function removeDuplicates(param:number[]):number[]{
+      const uniqueArray:number[] = [...new Set(param)];
+      return uniqueArray;
+     
+     };
+    //  const result = removeDuplicates( [1, 2, 2, 3, 4, 4, 5])
+    //   console.log(result);
 }

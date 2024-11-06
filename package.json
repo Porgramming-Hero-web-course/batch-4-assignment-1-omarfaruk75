@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-   "dev":"ts-node-dev --respawn --transpile-only ./src/problem-2.ts"
+   "dev":"ts-node-dev --respawn --transpile-only ./src/problem-3.ts"
   },
   "keywords": [],
   "author": "",
