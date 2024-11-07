@@ -24,10 +24,10 @@ type Shape = Circle|Rectangle;
     }
    
 }
-const resCircle = calculateShapeArea({ shape: 'circle', radius:5  })
-console.log(resCircle);
-const resRectandle = calculateShapeArea({ shape: 'rectangle', height:4,width:6 })
-console.log({resRectandle});
+// const resCircle = calculateShapeArea({ shape: 'circle', radius:5  })
+// console.log(resCircle);
+// const resRectandle = calculateShapeArea({ shape: 'rectangle', height:4,width:6 })
+// console.log({resRectandle});
 
 
 
