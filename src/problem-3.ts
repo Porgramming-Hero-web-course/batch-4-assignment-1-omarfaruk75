@@ -2,16 +2,16 @@
 {
 //problem-3 
 
+
 function countWordOccurrences(sentence: string, word: string): number {
   const lowerCaseSentence = sentence.toLowerCase();
   const lowerCaseWord = word.toLowerCase();
-  const repeatWord = lowerCaseSentence.split(lowerCaseWord);
+  const splitWords = lowerCaseSentence.split(" ");
+  const repeatWord = splitWords.filter(splitWords=>splitWords===lowerCaseWord)
+  return repeatWord.length
 
-    return repeatWord.length - 1;
  }
-  
-
-// console.log(countWordOccurrences("TypeScript is great. I love TypeScript!", "typescript"));
+//console.log(countWordOccurrences("I love typescript", "typescript"));
 
 
 }
