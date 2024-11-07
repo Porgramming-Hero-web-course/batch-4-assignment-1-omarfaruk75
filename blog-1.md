@@ -18,12 +18,12 @@ function printValue(value: string | number) {
 }
 In this example, printValue accepts either a string or number and handles each type appropriately.
 
-Intersection Types
+## Intersection Types
 An intersection type combines multiple types into one. You use the & symbol to combine types, meaning a variable must have all the properties of the combined types. Intersection types are useful when you need to create a type that combines properties from multiple types, ensuring that an object includes everything required by each type.
 
 Intersection types come in handy when you want an object that has properties from multiple types, like when a function requires an object with properties from both Person and Employee.
 
-Example:
+### Example:
 typescript
 Copy code
 interface Person {
