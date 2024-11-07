@@ -7,7 +7,7 @@ A union type allows a variable to hold more than one type. A developer uses the 
 Union types are especially useful for functions that need to accept different types of inputs, such as a function that can take either a `string` or `number`.
 
 ### Example:
-
+```tsx
 function printValue(value: string | number) {
     if (typeof value === "string") {
         console.log("String: " + value.toUpperCase());
@@ -16,7 +16,7 @@ function printValue(value: string | number) {
     }
 }
 In this example, printValue accepts either a string or number and handles each type appropriately.
-
+  ```
 ## Intersection Types
 
 An intersection type combines multiple types into one. You use the & symbol to combine types, meaning a variable must have all the properties of the combined types. Intersection types are useful when you need to create a type that combines properties from multiple types, ensuring that an object includes everything required by each type.
@@ -24,7 +24,7 @@ An intersection type combines multiple types into one. You use the & symbol to c
 Intersection types are helpful when you want an object that has properties from multiple types, such as when a function requires an object with properties from both Person and Employee.
 
 ### Example:
-
+```tsx
 interface Person {
     name: string;
 }
@@ -39,7 +39,7 @@ const personEmployee: PersonEmployee = {
     name: "Alice",
     employeeId: 123
 };
-
+```
 In this example, PersonEmployee is an intersection type that requires both name (from Person) and employeeId (from Employee), ensuring the object includes everything defined in both types.
 
 Together, union and intersection types help TypeScript manage complex data in a clear, safe, and structured way. They enable flexible and strict typing, making code easier to read and less error-prone.
