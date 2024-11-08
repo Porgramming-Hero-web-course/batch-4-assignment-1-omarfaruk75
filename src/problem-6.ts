@@ -18,7 +18,7 @@ interface Profile  {
 const updateProfile=(obj:Profile,updates: Partial<Profile>):Profile=>{
     return {...obj,...updates};
 }
-// console.log(updateProfile(myProfile,{age:26}));
+//console.log(updateProfile(myProfile,{age:26}));
 
 
 

@@ -22,19 +22,11 @@ type Shape = Circle|Rectangle;
     } else {
         throw new Error("Unknown shape type");
     }
-   
 }
 // const resCircle = calculateShapeArea({ shape: 'circle', radius:5  })
 // console.log(resCircle);
 // const resRectandle = calculateShapeArea({ shape: 'rectangle', height:4,width:6 })
 // console.log({resRectandle});
-
-
-
-
-
-
-
 
 
 

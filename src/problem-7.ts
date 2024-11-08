@@ -10,8 +10,8 @@ class Car {
 }
 }
 
-//const car = new Car("Honda", "Civic", 2018);
-//console.log(`${car.getCarAge()},(assuming current year is ${new Date().getFullYear()})`);;
+// const car = new Car("Honda", "Civic", 2018);
+// console.log(`${car.getCarAge()},(assuming current year is ${new Date().getFullYear()})`);;
 
 
 
